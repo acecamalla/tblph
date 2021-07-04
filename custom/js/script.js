@@ -3,7 +3,7 @@ $(document).ready(function(){
         loop:true,
         responsiveClass:true,
         dots: true,
-        margin: 5,
+        margin: 10,
         responsive:{
             0:{
                 items: 1,
