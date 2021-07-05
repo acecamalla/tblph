@@ -9,18 +9,8 @@ $(document).ready(function(){
                 items: 1,
                 dots: true
             },
-            300:{
-                items: 1,
-                dots: true,
-                loop: false
-            },
-            500:{
-                items: 2,
-                dots: true,
-                loop: false
-            },
             600:{
-                items:3,
+                items: 3,
                 dots: true,
                 loop: false
             },

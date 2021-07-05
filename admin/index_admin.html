@@ -17,21 +17,44 @@
 	<!-- end Framework css -->
 
 </head>
-<body>
-	<div id="mySidenav" class="sidenav">
+<body style="margin: 0; padding: 0;">
+	<div id="mySidenav" class="sidenav text-decoration-none font-buxton font-size-14">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="text-justify text-center">
+			<span class="fas fa-user" style="font-size: 100px;"></span>
+		</div>
+		
 		<a href="#">Manage Products</a>
 		<a href="#">Manage Customer</a>
-		<a href="#">Inventory</a>
-		<a href="#">other</a>
+		<a href="#"><span class="fas fa-warehouse"></span>&nbsp;Manage Inventory</a>
+		<a href="#"><span class="fas fa-shipping-fast"></span>&nbsp;Manage Delivery</a>
 	</div>
 	<!-- Use any element to open the sidenav -->
-	<button type="button" class="btn" onclick="openNav()">&#9776; Menu</button>
+	
+	
 
-	<div class="container-fluid" id="main">
+	<div id="main">
+		<div class="nav navbar navbar-dark bg-dark sticky-top ">
+			<button type="button" class="btn text-white font-buxton lead" onclick="openNav()">&#9776; Tblph</button>
+		</div>
+
+		<!-- Dashbord -->
+		<div class="container">
+			<div class="card">
+				<div class="card-body">
+					<div class="card-title">
+						<h3 class="font-buxton">Products</h3>
+					</div>
+					<div class="card-text">
+						total:<span class="badge badge-info">4</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Dashbord -->
 		<!-- Footer -->
-		<div class="jumbotron jumbotron-fluid bg-dark p-0 m-0">
-			<div class="container-fluid text-white text-center">
+		<div class="jumbotron jumbotron-fluid bg-dark py-4 m-0">
+			<div class="text-white text-center font-buxton">
 				Copyright &copy;
 			</div>
 		</div>
